@@ -1,2 +1,41 @@
 
+section{
+    width: 100vw;
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 /* Your CSS Code here. */
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+
+td{
+    text-align: right;
+}
+
+#t11, #t21, #t31 {
+
+    text-align: left;
+}
+
+.row1{
+    background-color: rgb(210, 94, 94);
+    color: white;
+}
+
+.row2{
+    background-color: rgb(233, 154, 154);
+    color: rgb(14, 13, 13);
+}
+.row3{
+    background-color: rgb(228, 185, 185);
+    color: rgb(4, 4, 4);
+}
+.row4{
+    background-color: rgb(227, 204, 204);
+    color: rgb(11, 11, 11);
+}
